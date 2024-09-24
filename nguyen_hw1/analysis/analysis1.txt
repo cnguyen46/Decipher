@@ -1,0 +1,72 @@
+***Analyzing Ciphertext #1***
+
+Total number of letters in ciphertext: 9478
+Total number of 26 alphabet letters  : 9478
+Hypothesis is true that ciphertext only containts 26 uppercased alphabet letters.
+^_^ Total sum of each letter is equal with total number of character in the file.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+FREQUENCY ANALYSIS
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Letter   Amount     Frequency Rate (%)
+---------------------------------------
+U        1231       12.99
+J        931        9.82
+Q        805        8.49
+E        739        7.8
+D        659        6.95
+Y        645        6.81
+I        581        6.13
+H        555        5.86
+X        504        5.32
+B        416        4.39
+T        342        3.61
+S        302        3.19
+K        237        2.5
+M        225        2.37
+C        219        2.31
+W        203        2.14
+V        190        2.0
+F        172        1.81
+O        160        1.69
+R        151        1.59
+L        111        1.17
+A        71         0.75
+Z        12         0.13
+N        10         0.11
+G        4          0.04
+P        3          0.03
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Letter U repeats the most: 1231 times, with 12.99%
+Letter P repeats the least: 3 times, with 0.03%
+Initial letter is B repeats 416 times, with 4.39%
+Final letter is D repeats 659 times, with 6.95%
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Kasiski Test:
+Top 10 common of trigrams and digrams
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+JXU: 152   JX: 297
+QDT: 92    XU: 201
+JXQ: 82    QD: 175
+XQJ: 82    YD: 147
+YDW: 66    UH: 147
+UJX: 48    UJ: 144
+UHU: 41    QJ: 140
+VEH: 40    XQ: 139
+XUH: 39    HU: 137
+DJX: 37    JE: 135
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Index of Coincidence (IC): 0.0671
+This should be Monoalphabetic Cipher, due to IC approximately 0.065.
+
+Choose: U - E, J - T.
+Found: a = 1, b = 16
+gcd(1,26) = 1
+The ciphertext is likely the Shift Cipher or the Affine Cipher.
+
+Choose: J - E, U - T.
+Found: a = 25, b = 13
+gcd(25,26) = 1
+The ciphertext is likely the Affine Cipher.

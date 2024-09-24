@@ -1,0 +1,92 @@
+***Analyzing Ciphertext #3***
+
+Total number of letters in ciphertext: 8037
+Total number of 26 alphabet letters  : 8037
+Hypothesis is true that ciphertext only containts 26 uppercased alphabet letters.
+^_^ Total sum of each letter is equal with total number of character in the file.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+FREQUENCY ANALYSIS
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Letter   Amount     Frequency Rate (%)
+---------------------------------------
+F        346        4.31
+W        325        4.04
+G        324        4.03
+Q        324        4.03
+Y        322        4.01
+A        319        3.97
+B        318        3.96
+O        317        3.94
+D        315        3.92
+P        313        3.89
+V        313        3.89
+H        310        3.86
+U        310        3.86
+Z        308        3.83
+C        306        3.81
+L        306        3.81
+S        306        3.81
+I        305        3.79
+M        304        3.78
+K        300        3.73
+R        300        3.73
+T        299        3.72
+X        296        3.68
+E        294        3.66
+N        280        3.48
+J        277        3.45
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Letter F repeats the most: 346 times, with 4.31%
+Letter J repeats the least: 277 times, with 3.45%
+Initial letter is D repeats 315 times, with 3.92%
+Final letter is K repeats 300 times, with 3.73%
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Kasiski Test:
+Top 10 common of trigrams and digrams
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+VZO: 5     VZ: 26
+GYL: 4     GJ: 23
+IGN: 4     MM: 22
+IWF: 4     MF: 22
+RUA: 4     OP: 21
+ZTA: 4     YO: 21
+OPT: 4     XA: 21
+UFE: 4     BR: 21
+PBR: 4     AF: 21
+PLO: 4     GK: 21
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Index of Coincidence (IC): 0.0384
+This should be Polyalphabetic Cipher, due to IC approximately 0.038.
+
+Using Kasiski method.
+---------------------------
+Group of adjacent GCD: "VZO"
+List of all position of "VZO": [2540, 4350, 4920, 6232, 7274]
+Distance of 10 repeats 1 times.
+Distance of 2 repeats 2 times.
+Length of keyword may likely has the most repeated gcd: 2
+
+Using Index of Coincidence method.
+-----------------------------
+Keyword Length: 1, Average IC: 0.0384
+Keyword Length: 2, Average IC: 0.0384
+Keyword Length: 3, Average IC: 0.0384
+Keyword Length: 4, Average IC: 0.0383
+Keyword Length: 5, Average IC: 0.0384
+Keyword Length: 6, Average IC: 0.0384
+Keyword Length: 7, Average IC: 0.0384
+Keyword Length: 8, Average IC: 0.0384
+Keyword Length: 9, Average IC: 0.0382
+Keyword Length: 10, Average IC: 0.0385
+Length of keyword may likely has the largest IC average: 0
+
+Keyword Recovery with x square method.
+-------------------------------------------
+Block 1: [A - 0 : 0.0380]   [B - 1 : 0.0385]   [C - 2 : 0.0388]   [D - 3 : 0.0392]   [E - 4 : 0.0376]   [F - 5 : 0.0379]   [G - 6 : 0.0378]   [H - 7 : 0.0397]   [I - 8 : 0.0385]   [J - 9 : 0.0379]   [K - 10 : 0.0380]   [L - 11 : 0.0385]   [M - 12 : 0.0390]   [N - 13 : 0.0391]   [O - 14 : 0.0388]   [P - 15 : 0.0385]   [Q - 16 : 0.0383]   [R - 17 : 0.0385]   [S - 18 : 0.0386]   [T - 19 : 0.0381]   [U - 20 : 0.0385]   [V - 21 : 0.0387]   [W - 22 : 0.0386]   [X - 23 : 0.0384]   [Y - 24 : 0.0388]   [Z - 25 : 0.0388]   
+Block 2: [A - 0 : 0.0383]   [B - 1 : 0.0391]   [C - 2 : 0.0384]   [D - 3 : 0.0385]   [E - 4 : 0.0389]   [F - 5 : 0.0385]   [G - 6 : 0.0383]   [H - 7 : 0.0376]   [I - 8 : 0.0387]   [J - 9 : 0.0381]   [K - 10 : 0.0390]   [L - 11 : 0.0384]   [M - 12 : 0.0391]   [N - 13 : 0.0381]   [O - 14 : 0.0394]   [P - 15 : 0.0382]   [Q - 16 : 0.0383]   [R - 17 : 0.0382]   [S - 18 : 0.0392]   [T - 19 : 0.0386]   [U - 20 : 0.0386]   [V - 21 : 0.0377]   [W - 22 : 0.0381]   [X - 23 : 0.0391]   [Y - 24 : 0.0388]   [Z - 25 : 0.0380]   
+Keyword: []
+
+The ciphertext is likely the One-Time Pad cipher.
