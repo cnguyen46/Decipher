@@ -1,4 +1,4 @@
-*** THESE ARE THE SUMMARIES OF STEPS BY STEPS OF HOW I DECRYPT ALL 4 CIPHERTEXT IN HW1 ***
+*** THESE ARE THE SUMMARIES OF STEPS BY STEPS OF HOW I DECRYPT CIPHERTEXT ***
 __________________________________________________________________________________________
 
 ### 1. Testing hypothesis:
