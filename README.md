@@ -19,4 +19,4 @@ The codes should be used for studying purposed. It is prohibited to copy my code
 I will not hold any responsible if you are doing this.
 
 I have fun when I study Cryptography and Cyber Security. It can be frustrated, but make me feel so excited when I can detect the key of the ciphertext. 
-I hope this program can encorage students in self-studying, and self-improving if they want to pursuit the Cybersecurity career.
+I hope this program can encorage students in self-studying, and self-improving if anyone want to pursuit the Cybersecurity career.
